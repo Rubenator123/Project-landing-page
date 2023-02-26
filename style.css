@@ -1,0 +1,26 @@
+.body {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color:white;
+    margin:0px;
+    padding:0px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size:large;
+    align-self: center;
+    padding-left: 20%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap:16px;
+    padding-right: 20%;
+}
