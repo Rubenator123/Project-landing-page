@@ -1,6 +1,9 @@
 body {
     margin:0px;
-    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
 }
 
 .top {
@@ -23,7 +26,6 @@ body {
 
 .logo {
     font-weight: bold;
-    font-size:large;
     align-self: center;
     font-size: 24px;
     
@@ -32,7 +34,9 @@ body {
 
 .links {
     display: flex;
-    gap:16px;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 16px;
     
 }
 
@@ -124,3 +128,89 @@ button {
     max-width:125px;
 }
 
+/*This is the grey middle container*/
+
+.greycontent {
+    height:300px;
+    font-family:light italic;
+    color: #1F2937;
+    background-color:#E5E7EB ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 675px;
+    font-size: 32px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: end; 
+    font-family: light italic; 
+}
+
+.thor {
+    display: flex;
+    justify-content: end;
+    font-size: 18px;
+    font-weight: 700;
+    width: 675px;
+}
+
+/* This is the call to action thingamabob*/ 
+
+.lowercontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+    color:#E5E7EB;
+}
+
+.calltoaction {
+    height: 75px;
+    width: 750px;
+    background-color:#3882F6;
+    display: flex;
+    justify-content: center;
+    
+    padding: 16px;
+    border-radius: 6px;
+}
+
+.left {
+    width: 500px;
+    align-self: center;
+    
+}
+
+h2 {
+    margin:0px;
+    
+}
+
+.right {
+    display: flex;
+   justify-items: end;
+   align-self: center;
+}
+
+.button2 {
+    border:3px solid #E5E7EB;
+    width:100px;
+    height:25px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+
+/* This is the footer */
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
